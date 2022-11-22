@@ -1,11 +1,11 @@
 variable "resource_group" {
   description = "The resource group"
-  default = "MartinsRomainResourceGroup"
+  default = "martins-romain-resource-group"
 }
 
 variable "application_name" {
   description = "The Spring Boot application name"
-  default     = "MartinsRomainApplication"
+  default     = "martins-romain-application"
 }
 
 variable "location" {
